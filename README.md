@@ -28,5 +28,6 @@ gammu-config
 ```
 Sesuaikan dengan lokasi modem anda. misal /dev/ttyUSB0
 
+### Clone Repository
 
 

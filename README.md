@@ -4,7 +4,7 @@ Application Programming Interface (API) yang berguna untuk layanan sms gateway m
 
 Cara menggunakan API:
 ```
-curl --header "Content-Type: application/json" --request POST --data '{"no_hp":"085277172858","pesan":"Hallo Sobat Covid hehe"}' http://localhost/sendsms
+curl --header "Content-Type: application/json" --request POST --data '{"no_hp":"085277XXXXXX","pesan":"Hallo ini Galih"}' http://localhost/sendsms
 ```
 
 ## Installasi (Ubuntu 18.04)

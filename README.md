@@ -1,6 +1,8 @@
-# Flask gammu API
+# Flask Gammu API
 
-Cara menggunakan:
+Application Programming Interface (API) yang berguna untuk layanan sms gateway menggunakan framework FLASK
+
+Cara menggunakan API:
 ```
 curl --header "Content-Type: application/json" --request POST --data '{"no_hp":"085277172858","pesan":"Hallo Sobat Covid hehe"}' http://localhost/sendsms
 ```
@@ -30,4 +32,17 @@ Sesuaikan dengan lokasi modem anda. misal /dev/ttyUSB0
 
 ### Clone Repository
 
+```
+git clone https://github.com/galiharb/Flask-Gammu-API.git
+```
 
+### Install requirements
+Baru di testing menggunakan Python 2
+```
+pip install -r requirements.txt
+```
+
+### Jalankan Program
+```
+python init.py
+```

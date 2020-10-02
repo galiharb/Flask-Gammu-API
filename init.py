@@ -4,7 +4,7 @@ import time
 
 app = Flask(__name__)
 
-@app.route("/api/covid19",methods=['POST'])
+@app.route("/sendsms",methods=['POST'])
 def covid_api():
 	if request.method=='POST':
 		posted_data = request.get_json()
